@@ -369,6 +369,10 @@ a {
 .team-item__img-bg {
   border-radius: 6px;
   background: #eaf6ff;
+  overflow: hidden;
+}
+.team-item{
+  cursor: pointer;
 }
 .team-item:hover .team-item__thumb {
   transform: scale(1.1);
